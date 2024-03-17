@@ -1,0 +1,13 @@
+[tool.ruff]
+lint.select = ["ALL"]
+lint.ignore = [
+    "ANN001", # self annotation
+    "ANN101", # self annotation
+    "D",      # Docs
+    "G004",   # Logging f-string
+    "ERA",    # Commented out code
+    "PTH110", # Blender doesn't include Path module
+    "PTH120", # ^
+    "PTH207", # ^
+    "T201"    # Ignore print
+]
